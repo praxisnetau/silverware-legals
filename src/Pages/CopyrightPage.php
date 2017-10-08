@@ -61,7 +61,7 @@ class CopyrightPage extends LegalPage
      * @var string
      * @config
      */
-    private static $icon = 'silverware-legals/admin/client/dist/images/icons/CopyrightPage.png';
+    private static $icon = 'silverware/legals: admin/client/dist/images/icons/CopyrightPage.png';
     
     /**
      * Defines an ancestor class to hide from the admin interface.

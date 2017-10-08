@@ -58,7 +58,7 @@ class PrivacyPage extends LegalPage
      * @var string
      * @config
      */
-    private static $icon = 'silverware-legals/admin/client/dist/images/icons/PrivacyPage.png';
+    private static $icon = 'silverware/legals: admin/client/dist/images/icons/PrivacyPage.png';
     
     /**
      * Defines an ancestor class to hide from the admin interface.
