@@ -60,7 +60,7 @@ class DisclaimerPage extends LegalPage
      * @var string
      * @config
      */
-    private static $icon = 'silverware-legals/admin/client/dist/images/icons/DisclaimerPage.png';
+    private static $icon = 'silverware/legals: admin/client/dist/images/icons/DisclaimerPage.png';
     
     /**
      * Defines an ancestor class to hide from the admin interface.

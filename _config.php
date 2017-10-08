@@ -14,13 +14,3 @@
  * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  * @link https://github.com/praxisnetau/silverware-legals
  */
-
-// Define Module Constants:
-
-if (!defined('SILVERWARE_LEGALS_DIR')) {
-    define('SILVERWARE_LEGALS_DIR', basename(__DIR__));
-}
-
-if (!defined('SILVERWARE_LEGALS_PATH')) {
-    define('SILVERWARE_LEGALS_PATH', realpath(__DIR__));
-}
