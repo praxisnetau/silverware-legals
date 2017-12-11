@@ -63,6 +63,14 @@ class DisclaimerPage extends LegalPage
     private static $icon = 'silverware/legals: admin/client/dist/images/icons/DisclaimerPage.png';
     
     /**
+     * Defines the table name to use for this object.
+     *
+     * @var string
+     * @config
+     */
+    private static $table_name = 'SilverWare_DisclaimerPage';
+    
+    /**
      * Defines an ancestor class to hide from the admin interface.
      *
      * @var string
