@@ -35,6 +35,30 @@ use Page;
 class LegalPage extends Page
 {
     /**
+     * Human-readable singular name.
+     *
+     * @var string
+     * @config
+     */
+    private static $singular_name = 'Legal Page';
+    
+    /**
+     * Human-readable plural name.
+     *
+     * @var string
+     * @config
+     */
+    private static $plural_name = 'Legal Pages';
+    
+    /**
+     * Defines the table name to use for this object.
+     *
+     * @var string
+     * @config
+     */
+    private static $table_name = 'SilverWare_LegalPage';
+    
+    /**
      * Maps field names to field types for this object.
      *
      * @var array
